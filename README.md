@@ -1,11 +1,3 @@
-[export_excel.php](https://github.com/user-attachments/files/30115304/export_excel.php)
-[grafik.php](https://github.com/user-attachments/files/30115307/grafik.php)
-[struk.php](https://github.com/user-attachments/files/30115319/struk.php)
-[profil.php](https://github.com/user-attachments/files/30115316/profil.php)
-[menu.php](https://github.com/user-attachments/files/30115314/menu.php)
-[logout.php](https://github.com/user-attachments/files/30115313/logout.php)
-[login.php](https://github.com/user-attachments/files/30115312/login.php)
-[laporan.php](https://github.com/user-attachments/files/30115311/laporan.php)
-[kasir.php](https://github.com/user-attachments/files/30115309/kasir.php)
-[index.php](https://github.com/user-attachments/files/30115308/index.php)
+[misop_kasir.zip](https://github.com/user-attachments/files/30115641/misop_kasir.zip)
+
 
