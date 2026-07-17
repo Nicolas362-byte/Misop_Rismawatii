@@ -1,0 +1,53 @@
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+    margin-bottom:30px;
+
+}
+
+.statistik{
+
+    text-align:center;
+
+}
+
+.statistik i{
+
+    font-size:45px;
+
+    color:#198754;
+
+    margin-bottom:15px;
+
+}
+
+.statistik h3{
+
+    font-size:32px;
+
+    margin-bottom:10px;
+
+}
+
+.statistik p{
+
+    color:#666;
+
+}
+
+.card table{
+
+    margin-top:20px;
+
+}
+
+.footer{
+
+    margin-top:40px;
+
+}

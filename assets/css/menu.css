@@ -1,0 +1,83 @@
+/*====================================
+    MENU.CSS
+====================================*/
+
+table img{
+
+    width:70px;
+
+    height:70px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:2px solid #eee;
+
+}
+
+tbody tr{
+
+    transition:.3s;
+
+}
+
+tbody tr:hover{
+
+    background:#f5fff8;
+
+}
+
+.badge{
+
+    min-width:60px;
+
+    display:inline-block;
+
+    text-align:center;
+
+}
+
+.badge-success{
+
+    background:#198754;
+
+}
+
+.badge-warning{
+
+    background:#ffc107;
+
+    color:#333;
+
+}
+
+.badge-danger{
+
+    background:#dc3545;
+
+}
+
+.search-box{
+
+    margin-bottom:20px;
+
+}
+
+.search-box input{
+
+    max-width:350px;
+
+}
+
+.empty{
+
+    padding:40px;
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:17px;
+
+}

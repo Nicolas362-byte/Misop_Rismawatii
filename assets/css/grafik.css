@@ -1,0 +1,27 @@
+/*==========================================
+    GRAFIK.CSS
+==========================================*/
+
+.card{
+
+    padding:30px;
+
+}
+
+canvas{
+
+    width:100% !important;
+
+    max-height:500px;
+
+}
+
+@media(max-width:768px){
+
+canvas{
+
+max-height:320px;
+
+}
+
+}

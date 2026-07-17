@@ -1,0 +1,91 @@
+/*====================================
+    LAPORAN.CSS
+====================================*/
+
+.filter{
+
+display:flex;
+
+gap:20px;
+
+margin-bottom:25px;
+
+align-items:end;
+
+flex-wrap:wrap;
+
+}
+
+.filter div{
+
+flex:1;
+
+min-width:180px;
+
+}
+
+tfoot tr{
+
+    background:#198754;
+
+    color:#fff;
+
+}
+
+tfoot td{
+
+    padding:15px;
+
+    font-weight:bold;
+
+    vertical-align:middle;
+
+}
+
+tfoot a{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+}
+
+tfoot a:hover{
+
+    background:#157347;
+
+}
+
+table td{
+
+vertical-align:middle;
+
+}
+
+.btn{
+
+padding:8px 14px;
+
+}
+
+@media(max-width:768px){
+
+.filter{
+
+flex-direction:column;
+
+}
+
+.filter div{
+
+width:100%;
+
+}
+
+}

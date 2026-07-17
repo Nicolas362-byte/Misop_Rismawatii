@@ -1,0 +1,159 @@
+body{
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../mie_gomak_bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+.login-container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-box{
+
+    width:380px;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(10px);
+
+    -webkit-backdrop-filter:blur(10px);
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:90px;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   LOGO LOGIN
+=========================== */
+
+.login-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.login-logo img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.login-box h2{
+
+    color:#198754;
+
+    margin-bottom:5px;
+
+}
+
+.login-box p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.form-group{
+
+    text-align:left;
+
+}
+
+.form-group label{
+
+    font-weight:600;
+
+}
+
+.form-group input{
+
+    margin-top:5px;
+
+}
+
+.btn{
+
+    margin-top:15px;
+
+    font-size:16px;
+
+}
+
+.btn i{
+
+    margin-right:8px;
+
+}
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .login-box{
+
+        width:92%;
+
+        padding:25px;
+
+    }
+
+}
